@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    color: green;
+}
+
+nav {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+    color: whitesmoke;
+    height: 10vh;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+}
